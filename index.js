@@ -2,6 +2,8 @@
 require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
+mongoose.set("strictQuery", true);
+
 const cors = require("cors");
 const morgan = require("morgan");
 const cloudinary = require("cloudinary").v2;
