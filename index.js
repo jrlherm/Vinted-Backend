@@ -17,7 +17,7 @@ mongoose.connect(process.env.MONGODB_URI);
 
 // Connexion à l'espace de stockage cloudinary
 cloudinary.config({
-  cloud_name: "lereacteur",
+  cloud_name: "ddkgnxcot",
   api_key: process.env.CLOUDINARY_API_KEY,
   api_secret: process.env.CLOUDINARY_API_SECRET,
 });
