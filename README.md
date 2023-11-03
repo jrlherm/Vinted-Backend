@@ -135,8 +135,3 @@ Delete an offer
 
 <br>
 <br>
-
-### /reset-offers (GET)
-
-This route resets the offers database.
-Do not consider it.
